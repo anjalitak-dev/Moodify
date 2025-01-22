@@ -8,6 +8,6 @@ Features
 -Save and share your creative work      
 
 Technologies Used   
--HTML
--CSS
--JavaScript
+-HTML      
+-CSS      
+-JavaScript         
