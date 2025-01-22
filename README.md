@@ -1,4 +1,4 @@
-Moodify - Digital Board
+Moodify - Digital Board         
 Moodify is an interactive digital board where users can add images, text, and apply color palettes. It provides a creative space for users to express themselves through a combination of visual elements.
 
 Features           
