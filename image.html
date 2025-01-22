@@ -1,0 +1,81 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+  Moodify
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ <link rel="stylesheet" href="image.css">
+ </head>
+ <body>
+    <div class="header">
+        <div class="left">
+         
+          <span class="title">Moodify</span>
+        </div>
+        <div class="right">
+          <button onclick="homepage()">
+            <i class="fas fa-home"></i>
+          </button>
+          <button>
+            <i class="fas fa-cog"></i>
+          </button>
+          <button class="avatar-button" onclick="loginpage()">
+            <i class="fas fa-user"></i>
+          </button>
+        </div>
+      </div>
+      
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <button onclick="textpage()">
+      <i class="fas fa-file-alt"></i>
+      <span class="sidebar-label">Text</span>
+    </button>
+    <button onclick="imagepage()">
+      <i class="fas fa-image"></i>
+      <span class="sidebar-label">Images</span>
+    </button>
+    <button onclick="colorpalette()">
+      <i class="fas fa-palette" ></i>
+      <span class="sidebar-label">Color Palette</span>
+    </button>
+    <button>
+      <i class="fas fa-comments"></i>
+      <span class="sidebar-label">Comments</span>
+    </button>
+    <button>
+      <i class="fas fa-share-alt"></i>
+      <span class="sidebar-label">Share</span>
+    </button>
+  </div>>
+  <input type="file" id="imageInput" />
+  <input type="text" id="imageDescription" placeholder="Image description" />
+  <button id="addImage">Add Image</button>
+
+  <div id="imagesList"></div>
+ 
+ 
+ 
+  
+  
+
+ <script>
+    function homepage(){
+        window.location.href="index.html";
+    }
+  
+    function textpage(){
+        window.location.href="text.html";
+    }
+    function imagepage(){
+        window.location.href="image.html";
+    }
+    function colorpalette(){
+        window.location.href="color.html";
+    }
+ </script>
+<script src="image.js"></script>
+</body>
+</html>
