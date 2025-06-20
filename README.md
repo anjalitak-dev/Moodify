@@ -66,7 +66,7 @@ To run the project locally:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/moodify-digital-board.git
+   git clone https://github.com/anjalitak-dev/Moodify.git
 2. **Navigate to the Project Directory**
   ```bash
    cd moodify-digital-board
